@@ -125,6 +125,10 @@ declare module "react-native-maps-directions" {
      */
     apikey: string;
     /**
+     * Your options for fetch
+     */
+    options: object;
+    /**
      * Callback that is called when the routing has started.
      */
     onStart?: (...args: any[]) => any;
